@@ -6,8 +6,6 @@ export const GetUsers = () => {
     const host = "https://jsonplaceholder.typicode.com/users";
     const photo = "https://picsum.photos/100/100?random"
     
-
-    
     const getUsers = async () => {
         if (localStorage.getItem("usersLocal") === null){
             const responce = await fetch(host)

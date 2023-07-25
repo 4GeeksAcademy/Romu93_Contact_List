@@ -7,7 +7,7 @@ export const UserDetail = () => {
     const userView = JSON.parse(localStorage.getItem("usersLocal"))
     console.log(userView)
 
-    return (
+    return(
         <div className="card m-5">
             <div className="m-5">
                 <h2>User Id: {id + 1}</h2>
